@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/014/435/037/non_2x/squared-notebook-seamless-pattern-grey-grid-texture-school-notebook-for-mathematics-grid-paper-sheet-illustration-on-white-background-vector.jpg) fixed;
+
+}
+
+.hangman-center{
+    height: 87vh;
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.box{
+    border: 3px solid rgb(140, 170, 162) ;
+    padding: 1rem 5rem ;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategray;
+}
+.Hints{
+    font-weight: bold;
+    font-size: 2rem;
+    color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.next{
+    font-size: 2rem;
+    border-radius: 200px;
+    padding:5px 30px;
+    color: darkslateblue;
+}
+.next-previous{
+    display: flex;
+    /* gap: 2px; */
+    justify-content: space-around;
+}
+.enter-word{
+    display: flex;
+    font-size: 4rem;
+    margin-top: 40px;
+    gap: 20px;
+    letter-spacing: 20px;
+}
+
+.letter{
+    margin-top: 40px;
+    border-bottom: 3px solid black;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 72, 9);
+}
+.keyboard{
+    font-size: 3rem;
+    border-radius:2rem;
+    font-weight:700;
+    margin: 10px;
+    padding: 10px 20px;
+    color: darkslategray;
+    border: 4px dashed grey;
+    font-family:'Caveat', cursive;
+}
+
+.keyboardKaPapaKaPapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.odd{
+    color: #E381CB;
+}
+.even{
+    color:#C72553;
+}
+.odd2{
+    color:#187B86;
+}
+.even2{
+    color:#EA665C;
+}
+.odd1{
+    color:#F5956A;
+}
+.even1{
+    color:#781330;
+}
+
+.cross{        
+    background: url(http://www.w3.org/2000/svg)  no-repeat fixed ;
+    color: red;
+}
+
+.disabledRed{
+    cursor: not-allowed;
+    background-color: rgba(246, 79, 79, 0.498);
+    border-style:groove;
+    border-color: #781330;
+    color:red;
+}
+.disabledGreen{
+    cursor: not-allowed;
+    background-color: rgba(11, 235, 56, 0.37);
+    border-style:groove;
+    border-color: #08d015;
+    color:rgb(21, 255, 0);
+    font-size: 30px;
+    padding:22px 11px;
+}
